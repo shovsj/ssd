@@ -5,4 +5,8 @@ setup(name='ssd',
       description='Single Shot Detector',
       url='http://github.com/tensorpro/ssd',
       packages=['ssd', 'nets', 'preprocessing', 'tf_extended'],
+      install_requires=[
+        'numpy',
+        'tensorflow',
+    ],
       zip_safe=False)
