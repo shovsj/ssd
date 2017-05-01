@@ -6,6 +6,8 @@ setup(name='ssd',
       url='http://github.com/tensorpro/ssd',
       packages=['ssd', 'nets', 'preprocessing', 'tf_extended'],
       install_requires=[
+        'enum34',
+        'opencv-python',
         'numpy',
         'tensorflow',
     ],
